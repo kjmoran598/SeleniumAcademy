@@ -2,13 +2,13 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 
 
 
@@ -45,7 +45,7 @@ public class SSLChromeOptions {
 		driver.get("https://expired.badssl.com/");
 
 		System.out.println(driver.getTitle());
-//
+
 //		File src = ((TakesScreenShot) driver).getScreenshotAs(OutputType.FILE);
 //		FileUtils.copyFile(src, new File("C://home/"));
 
