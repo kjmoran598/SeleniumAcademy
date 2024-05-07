@@ -14,6 +14,7 @@ public class AssignementCheckboxes {
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
+		//Simple movement to a checkbox, see if it is checked, check it and confirm it was checked
 		Assert.assertFalse(driver.findElement(By.cssSelector("input[id='checkBoxOption1']")).isSelected());
 		driver.findElement(By.cssSelector("input[id='checkBoxOption1'")).click();
 		Assert.assertTrue(driver.findElement(By.cssSelector("input[id='checkBoxOption1']")).isSelected());

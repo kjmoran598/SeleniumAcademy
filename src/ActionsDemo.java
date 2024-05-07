@@ -10,6 +10,7 @@ public class ActionsDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		//Actions move the cursor around the screen and require the Actions class and build and perform methods
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.com/");
 		Actions a = new Actions(driver);
